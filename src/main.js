@@ -8,7 +8,7 @@ import '@/assets/bootstrap.min.css'
 import axios from 'axios'
 
 Vue.prototype.myaxios=axios
-
+Vue.prototype.HOST="/api"
 
 Vue.config.productionTip = false
 

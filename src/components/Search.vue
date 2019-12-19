@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     getdata() {
-      this.myaxios("../../static/web_data.json").then(res => {
+      this.myaxios("./static/web_data.json").then(res => {
         res.data.data.forEach(ele => {
           ele.list.forEach(ele => {
             this.list.push(ele);

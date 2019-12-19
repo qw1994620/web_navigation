@@ -39,7 +39,8 @@ export default {
   watch: {},
   methods: {
     getdata() {
-      this.myaxios("../../static/web_data.json").then(res => {
+
+      this.myaxios("./static/web_data.json").then(res => {
         this.list = res.data.data;
         // console.log(this.list);
       });
